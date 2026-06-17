@@ -667,21 +667,20 @@ html, body {
 }
 
 @media (max-width: 768px) {
-
   body {
-    overflow: auto;
+    cursor: auto;
   }
 
-  #book {
-    width: 100vw;
-    height: auto;
-    transform: scale(0.55);
-    transform-origin: top center;
+  .cursor,
+  .trail-dot {
+    display: none !important;
   }
-
 }
 @media (max-width: 768px) {
   body {
     display: block;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
