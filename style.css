@@ -1,7 +1,4 @@
-#book {
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
+
 html, body {
   visibility: hidden;
 }
@@ -700,7 +697,4 @@ html, body {
   .trail-dot {
     display: none !important;
   }
-}
-body.loaded #book {
-  opacity: 1;
 }
