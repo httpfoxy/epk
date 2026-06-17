@@ -667,16 +667,6 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  body {
-    cursor: auto;
-  }
-
-  .cursor,
-  .trail-dot {
-    display: none !important;
-  }
-}
-@media (max-width: 768px) {
 
   body {
     align-items: flex-start;
@@ -684,13 +674,10 @@ html, body {
   }
 
   #book {
-    width: 95vw;
+    width: 100vw;
     height: auto;
-    transform: scale(0.9);
-  }
-
-  .page {
-    flex-direction: column;
+    max-width: 100vw;
+    transform: none;
   }
 
 }
