@@ -1,3 +1,6 @@
+html, body {
+  visibility: hidden;
+}
 #book{
 position:relative;
 z-index:10;
@@ -668,8 +671,18 @@ html, body {
 
 @media (max-width: 768px) {
 
+  html, body {
+    overflow-x: hidden;
+  }
+
   body {
+    display: block;
+    height: auto;
     overflow: auto;
+    cursor: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    visibility: visible;
   }
 
   #book {
@@ -679,17 +692,8 @@ html, body {
     transform-origin: top center;
   }
 
-}
-@media (max-width: 768px) {
-  body {
-    display: block;
-  }
-}
-@media (max-width: 768px) {
-  body {
-    display: block;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
+  .cursor,
+  .trail-dot {
+    display: none !important;
   }
 }
