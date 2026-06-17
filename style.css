@@ -678,6 +678,16 @@ html, body {
 }
 @media (max-width: 768px) {
   body {
+    overflow: auto;
+  }
+
+  #book {
+    transform: scale(0.55);
+    transform-origin: top center;
+  }
+}
+@media (max-width: 768px) {
+  body {
     display: block;
     height: auto;
     align-items: flex-start;
