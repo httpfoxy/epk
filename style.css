@@ -14,7 +14,7 @@ body {
 
   height: 100vh;
 }
-#book{width: 100vw;;height:700px;}
+#book{width:1000px;height:700px;}
 .page {
   background: white;
   padding: 0;
@@ -667,26 +667,8 @@ html, body {
 }
 
 @media (max-width: 768px) {
-
-  html, body {
-    overflow-x: hidden;
-  }
-
   body {
-    display: block;
-    height: auto;
-    overflow: auto;
     cursor: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
-    visibility: visible;
-  }
-
-  #book {
-    width: 100vw;
-    height: auto;
-    transform: scale(0.55);
-    transform-origin: top center;
   }
 
   .cursor,
