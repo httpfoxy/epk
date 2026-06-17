@@ -676,3 +676,21 @@ html, body {
     display: none !important;
   }
 }
+@media (max-width: 768px) {
+
+  body {
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+
+  #book {
+    width: 95vw;
+    height: auto;
+    transform: scale(0.9);
+  }
+
+  .page {
+    flex-direction: column;
+  }
+
+}
