@@ -687,10 +687,8 @@ html, body {
   }
 }
 @media (max-width: 768px) {
-  body {
-    display: block;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
+  #book {
+    transform: scale(0.75) !important;
+    transform-origin: top center !important;
   }
 }
