@@ -685,12 +685,3 @@ html, body {
     justify-content: flex-start;
   }
 }
-
-@media (max-width: 768px) {
-
-  #book {
-    transform: scale(0.85);
-    transform-origin: center center;
-  }
-
-}
