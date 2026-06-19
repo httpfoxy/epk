@@ -685,3 +685,12 @@ html, body {
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+
+  #book {
+    width: 100vw !important;
+    height: 80vh !important;
+  }
+
+}
