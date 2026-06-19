@@ -14,7 +14,11 @@ body {
 
   height: 100vh;
 }
-#book{width: 100vw;height:700px;}
+#book{
+width:1000px;
+height:700px;
+margin:0 auto;
+}
 .page {
   background: white;
   padding: 0;
