@@ -705,3 +705,9 @@ html, body {
 .socials a:hover {
   transform: scale(1.2);
 }
+
+.track-btn {
+  appearance: none;
+  border: none;
+  font-family: inherit;
+}
